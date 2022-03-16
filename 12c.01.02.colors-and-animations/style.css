@@ -1,0 +1,275 @@
+/* Resetter */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+html {
+  --color-primary1: #cabd91;
+  --color-primary2: #ffd451;
+  --color-secondary1: #024959;
+  --color-secondary2: #2e1b08;
+  --color-accent1: #f2ae30;
+  --color-accent2: #f09b52;
+}
+/* Fonts */
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: var(--color-primary1);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-primary2);
+  font-family: "Noto Serif Display", serif;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 3.052rem;
+}
+
+h2 {
+  font-size: 1.953rem;
+  line-height: 2.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  color: var(--color-primary1);
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-secondary2);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* UI Elements */
+button {
+  display: inline-block;
+  height: 3rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-size: 1rem;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--color-secondary2);
+  color: var(--color-accent1);
+}
+
+.dark_button {
+  background-color: var(--color-secondary2);
+}
+
+input[type="text"] {
+  box-sizing: border-box;
+  width: 250px;
+  height: 3rem;
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  text-align: left;
+  background-color: #eee;
+  border-color: #ddd;
+  color: #222;
+}
+
+/* Menu */
+nav {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color-primary2);
+}
+
+nav a {
+  color: var(--color-primary2);
+  text-decoration: none;
+}
+
+nav a.logo {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.25rem;
+  color: var(--color-secondary1);
+}
+
+nav li {
+  display: inline-block;
+  margin: 0px 1rem;
+}
+
+/* Header */
+header {
+  display: flex;
+  min-height: 80vh;
+  padding: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-color: var(--color-secondary1);
+}
+
+header h1 {
+  color: var(--color-primary2);
+}
+
+header p {
+  color: var(--color-primary1);
+}
+
+header button {
+  margin-bottom: 5rem;
+  color: var(--color-accent2);
+}
+
+.header_text {
+  width: 30vw;
+  min-width: 300px;
+}
+
+.header_graphics {
+  width: 30vw;
+  height: 30vw;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 300px;
+  background-color: var(--color-primary1);
+}
+
+/* product section */
+#product {
+  padding: 2rem;
+  background-color: var(--color-secondary1);
+}
+
+#product h3 {
+  font-size: 1.953rem;
+  line-height: 2.5rem;
+  color: var(--color-accent1);
+}
+
+#product article {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.product_text {
+  width: 50vw;
+  min-width: 300px;
+}
+
+.product_graphics {
+  width: 15vw;
+  height: 15vw;
+  min-width: 150px;
+  min-height: 150px;
+  margin: 3rem;
+  background-color: var(--color-primary2);
+  border-radius: 300px;
+}
+
+/* highlight sections */
+.highlight {
+  display: flex;
+  min-height: 70vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-primary2);
+}
+
+.highlight div {
+  width: 80vw;
+}
+
+.highlight a {
+  color: var(--color-secondary2);
+}
+
+.highlight div h2 {
+  font-size: 3.052rem;
+  line-height: 4rem;
+  color: var(--color-secondary1);
+}
+
+.dark {
+  background-color: var(--color-primary2);
+}
+
+.dark h2 {
+  color: #eee;
+}
+
+.dark a {
+  color: var(--color-secondary2);
+}
+
+/* request section */
+#request {
+  display: flex;
+  min-height: 50vh;
+  padding: 2rem;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color-secondary1);
+}
+
+#request div {
+  width: 50vw;
+  min-width: 450px;
+}
+
+#request h2 {
+  color: var(--color-accent1);
+}
+
+/* Footer */
+footer {
+  display: flex;
+  padding: 5vh 2rem;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: var(--color-accent1);
+  color: var(--color-accent1);
+}
+
+footer h2,
+footer h3 {
+  color: var(--color-secondary1);
+}
+
+footer a {
+  color: var(--color-secondary2);
+}
+
+footer section.left {
+  display: flex;
+  max-width: 50vw;
+  align-items: top;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer section div {
+  margin: 0px 1rem 1rem 1rem;
+}
