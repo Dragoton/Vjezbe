@@ -94,7 +94,7 @@ nav {
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--color-darker);
+  background-color: var(--c);
 }
 
 nav a {
