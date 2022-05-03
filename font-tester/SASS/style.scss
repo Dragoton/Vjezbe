@@ -1,0 +1,11 @@
+@use "header";
+@use "vars";
+@use "mixins";
+
+body {
+  background-color: hotpink;
+}
+
+header {
+  @include mixins.boarders;
+}
